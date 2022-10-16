@@ -1,5 +1,9 @@
 *{
     font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #1F2937;
+
 }
 
 ul {
@@ -21,24 +25,37 @@ a {
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 8px;
+    padding: 24px;
 }
 
 .right-links {
     margin-left: auto;
     align-self: center;
+    
 }
 
-#logo {
-    font-size: 24px;
-    font-weight: bold;
-}
 
 .hero {
     border: 2px red solid;
     display: flex;
-    flex: 1 0 auto;
     background-color: #1F2937;
     color: white;
-    padding: 8px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main-left {
+    border: 2px red solid;
+    overflow-wrap: break-word;
+    width: 20%;
+    flex: 0 1 auto;
+    
+}
+.hero-main-right {
+    flex: 0 0 auto;
+    margin-left:auto;
+    background-color: gray;
+    border: 150px gray solid;
+    padding: 50px;
 }
