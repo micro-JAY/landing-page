@@ -23,7 +23,6 @@ a {
 }
 
 .header {
-    border: 2px red solid;
     display: flex;
     flex-shrink: 0;
     background-color: #1F2937;
@@ -32,44 +31,44 @@ a {
 }
 
 .right-links {
-    border: 2px red solid;
     margin-left: auto;
     align-self: center;
     
 }
 
-
 .hero {
-    border: 2px red solid;
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 24px;
+    padding-left: 24px;
     align-items: center;
     justify-content: center;
 }
 
 .hero-main-left {
     margin-right: auto;
-    border: 2px red solid;
-    width: 25%;
+    width: 30%;
     flex: 0 1 auto;
+    font-size: 18px;
     
 }
 .hero-main-right img {
     align-self: center;
     margin-right: auto;
-    padding: 50px;
-    width: 800px;
-    height: 500px;
+    padding-bottom: 50px;
+    padding-right: 24px;
+    width: 700px;
+    height: 400px;
     object-fit: cover; 
 }
 
 .section-2 {
-    border: 2px red solid;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 18px;
+    margin: 150px;
+    margin-top: 50px;
 }
 .section-2 img {
     width: 200px;
@@ -81,13 +80,92 @@ a {
 .text {
     color:rgb(87, 85, 85);
     text-align: center;
-    max-width: 70%;
+    max-width: 65%;
+}
+
+.title {
+    margin-top: 36px;
+    color: #1F2937;
+    text-align: center;
 }
 
 .item {
     display: flex;
+    max-width: 450px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 24px;
+    text-align: left;
+    width: 800px;
+    color: rgb(69, 69, 69);
+}
+
+.quoted {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: center;
+    
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin: auto;
+    width: 30%;
+    font-size: 18px;
+    margin-top: 72px;
+}
+
+.cta button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+  }
